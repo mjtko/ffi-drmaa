@@ -6,14 +6,14 @@ Gem::Specification.new do |s|
   s.version = Drmaa::VERSION
   s.platform = Gem::Platform::RUBY
   s.date = '2011-12-18'
-  s.authors = ['Mark J. Titorenko']
+  s.authors = ['Mark J. Titorenko','Jeremy Lipson','Chris Young']
   s.email = 'mark.titorenko@alces-software.com'
   s.homepage = 'http://github.com/mjtko/drmaa'
-  s.summary = %Q{TODO: one-line summary of your gem}
-  s.description = %Q{TODO: detailed description of your gem}
+  s.summary = %Q{FFI bindings to the Distributed Resource Management Application API}
+  s.description = %Q{Distributed Resource Management Application API is a high-level Open Grid Forum API specification for the submission and control of jobs to a Distributed Resource Management (DRM) system - this gem provides Ruby bindings to the DRMAA with FFI.}
   s.extra_rdoc_files = [
-    'LICENSE',
-    'README.rdoc',
+    'LICENSE.txt',
+    'README.txt',
   ]
 
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.7')
